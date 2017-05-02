@@ -31,11 +31,20 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Talk to Watson"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="127dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp" />
+        android:layout_marginTop="75dp"
+        android:text="Type Command"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/Speak_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Speak Command" />
 
 </RelativeLayout>
